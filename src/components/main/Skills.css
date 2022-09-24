@@ -1,0 +1,29 @@
+.skills .h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: slateblue;
+}
+
+.skills .grid {
+    width: 80%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skills .grid img {
+    width: 70%;
+    height: auto;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .skills .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .skills .grid img {
+        width: 80%;
+        height: auto;
+    }
+}

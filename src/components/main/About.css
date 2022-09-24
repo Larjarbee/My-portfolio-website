@@ -1,0 +1,85 @@
+.about {
+    margin-top: 5rem;
+}
+
+.about .img,
+.about .img {
+    text-align: center;
+}
+
+.about .img img {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about .h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: slateblue;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me h3 {
+    text-decoration: underline;
+    color: slateblue;
+}
+
+#light .profile,
+#light .experience {
+    width: 50%;
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgba(221, 221, 221, 0.199);
+}
+
+#dark .profile,
+#dark .experience {
+    width: 50%;
+    margin: 5px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgba(51, 50, 50, 0.541);
+}
+
+#light .profile i,
+#light .experience i {
+    color: #1b1c1e98;
+}
+
+#dark .profile i,
+#dark .experience i {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.experience li {
+    margin: 5px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .about .img img {
+        width: 50%;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    #light .profile,
+    #light .experience {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    #dark .profile,
+    #dark .experience {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}

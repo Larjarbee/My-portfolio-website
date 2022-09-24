@@ -1,0 +1,11 @@
+.button {
+    background-color: slateblue;
+    color: white;
+    margin-right: 5px;
+    padding: 10px;
+    border-color: slateblue;
+}
+
+.button:hover {
+    opacity: 0.8;
+}

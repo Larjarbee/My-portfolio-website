@@ -1,0 +1,106 @@
+.contact {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.contact .h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: slateblue;
+}
+
+.contact .form input,
+textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: none;
+
+}
+
+#dark .contact .form input {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    background-color: #222;
+    color: white;
+}
+
+#dark .contact .form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #222;
+}
+
+.error {
+    color: red;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding: 0px;
+}
+
+.contact .form input:focus,
+textarea:focus {
+    border: 1px solid slateblue;
+}
+
+#dark .contact .form input:focus {
+    border: 1px solid slateblue;
+}
+
+#dark .contact .form textarea:focus {
+    border: 1px solid slateblue;
+}
+
+#dark .contact .form input::placeholder {
+    color: white;
+}
+
+#dark .contact .form textarea::placeholder {
+    color: white;
+}
+
+.invalid input {
+    border: 1px solid red;
+}
+
+.invalid textarea {
+    border: 1px solid red;
+}
+
+#dark .contact .invalid input {
+    border: 1px solid red;
+}
+
+#dark .contact .invalid textarea {
+    border: 1px solid red;
+}
+
+.contact .invalid input::placeholder {
+    color: red;
+}
+
+.contact .invalid textarea::placeholder {
+    color: red;
+}
+
+#dark .contact .invalid input::placeholder {
+    color: red;
+}
+
+#dark .contact .invalid textarea::placeholder {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 90%;
+        margin: 0px auto;
+    }
+}

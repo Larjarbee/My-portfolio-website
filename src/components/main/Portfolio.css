@@ -1,0 +1,36 @@
+.portfolio .h3 {
+    text-align: center;
+    font-size: 2rem;
+    color: slateblue;
+}
+
+.portfolio .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portfolio .grid .grid-items {
+    margin: 2rem;
+    border: 1px solid rgba(105, 90, 205, 0.336);
+}
+
+.portfolio .grid .grid-items h4,
+p {
+    margin-left: 5px;
+}
+
+.portfolio .grid .grid-items img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio .grid .grid-items a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .portfolio .grid {
+        grid-template-columns: 1fr;
+    }
+}

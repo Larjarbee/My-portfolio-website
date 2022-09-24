@@ -1,0 +1,66 @@
+.summary {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 5rem;
+}
+
+.summary .summary-social {
+    width: 10%;
+    margin-top: 3rem;
+}
+
+.summary .summary-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.summary .summary-social ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color: slateblue;
+    text-decoration: none;
+}
+
+.summary .summary-social ul li a:hover {
+    font-size: 1.5rem;
+}
+
+.summary .summary-text {
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+.summary .summary-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.summary .summary-img {
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .summary {
+        margin-top: 2rem;
+    }
+
+    .summary .summary-img {
+        display: none;
+    }
+
+    .summary .summary-text {
+        width: 90%;
+        font-size: 1.25rem;
+    }
+
+    .summary .summary-social {
+        width: 10%;
+        margin-top: 2rem;
+    }
+}
