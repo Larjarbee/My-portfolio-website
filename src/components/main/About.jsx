@@ -48,16 +48,16 @@ const About = () => {
             <i>Duration: 2019 - 2020</i> <br />
             <ul>
               <li>
-                Enhanced functionality and appearance of website and repaired
+                Enhancing functionality and appearance of website and repaired
                 functionality issues.
               </li>
               <li>
                 Translate customer requirements into technical site concepts for
                 bidding and initial planning purposes.
               </li>
-              <li>Designed user interface to meet client specifications.</li>
+              <li>Designing user interface to meet client specifications.</li>
               <li>
-                Designed highly engaging interactive user interfaces that
+                Designing highly engaging interactive user interfaces that
                 complied with modern web standard.
               </li>
             </ul>
