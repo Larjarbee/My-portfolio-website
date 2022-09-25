@@ -18,7 +18,7 @@ const About = () => {
         <img src={img} alt='img' />
       </div>
       <div className='about-me'>
-        <div data-aos='fade-down' className='profile'>
+        <div data-aos='fade-right' className='profile'>
           <h3>PROFILE</h3>
           <p>
             I'm a Front-End Developer and graphic designer that bring in-depth
@@ -36,7 +36,7 @@ const About = () => {
             <i>Duration: 2016 - 2023</i>
           </p>
         </div>
-        <div data-aos='fade-up' className='experience'>
+        <div data-aos='fade-left' className='experience'>
           <h3>WORK EXPERIENCE</h3>
           <div>
             Oluwarotimi Institute of Computer Technologies (Intern) <br />

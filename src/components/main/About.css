@@ -21,6 +21,7 @@
 
 .about-me {
     display: flex;
+    margin-top: 1rem;
 }
 
 .about-me h3 {
@@ -56,7 +57,12 @@
     color: rgba(255, 255, 255, 0.685);
 }
 
-.experience li {
+.experience ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.experience ul li {
     margin: 5px;
 }
 

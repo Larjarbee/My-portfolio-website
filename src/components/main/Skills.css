@@ -7,6 +7,7 @@
 .skills .grid {
     width: 80%;
     margin: 0px auto;
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -15,6 +16,11 @@
     width: 70%;
     height: auto;
     margin: 5px;
+}
+
+.skills .grid p {
+    margin: 0px 0px 2rem 0px;
+    padding: 0px;
 }
 
 @media only screen and (max-width: 600px) {
