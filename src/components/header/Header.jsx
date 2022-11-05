@@ -48,7 +48,7 @@ const Header = ({ theme, toggleTheme }) => {
 
       {showToggle && (
         <aside className='aside'>
-          <ul>
+          <ul onClick={showToggleHandler}>
             <li>
               <a href='#home'>HOME</a>
             </li>
