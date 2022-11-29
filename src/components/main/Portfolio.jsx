@@ -9,6 +9,8 @@ import calc from '../img/calc.PNG';
 import fashon from '../img/fashon.PNG';
 import expenses from '../img/expenses.PNG';
 import cate from '../img/cate.PNG';
+import Capture from '../img/Capture.JPG';
+import Captures from '../img/Captures.JPG';
 
 const Portfolio = () => {
   useEffect(() => {
@@ -33,6 +35,38 @@ const Portfolio = () => {
             </Button>
             <Button>
               <a href='https://github.com/Larjarbee/e-commerce-project'>CODE</a>
+            </Button>
+          </p>
+        </div>
+        <div data-aos='fade-up-left' className='grid-items'>
+          <img src={Captures} alt='img' />
+          <h4>Movie App (Fetching data from MovieDB)</h4>
+          <p>
+            Built with:<i> HTML, CSS & React</i>
+          </p>
+          <p>
+            <Button>
+              <a href='https://splendid-monstera-9dc476.netlify.app/'>DEMO</a>
+            </Button>
+            <Button>
+              <a href='https://github.com/Larjarbee/Movie-app'>CODE</a>
+            </Button>
+          </p>
+        </div>
+        <div data-aos='fade-up-right' className='grid-items'>
+          <img src={Capture} alt='img' />
+          <h4>Easybank Landing Page (Frontend Mentor)</h4>
+          <p>
+            Built with:<i> HTML, CSS & React</i>
+          </p>
+          <p>
+            <Button>
+              <a href='https://tangerine-salamander-3458f4.netlify.app/'>
+                DEMO
+              </a>
+            </Button>
+            <Button>
+              <a href='https://github.com/Larjarbee/Landing-Page'>CODE</a>
             </Button>
           </p>
         </div>
