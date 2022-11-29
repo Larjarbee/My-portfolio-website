@@ -24,7 +24,9 @@ const Portfolio = () => {
       </h3>
       <div className='grid'>
         <div data-aos='fade-up-right' className='grid-items'>
-          <img src={fashon} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={fashon} alt='img' />
+          </div>
           <h4>Online Clothing Store (e-Commerce)</h4>
           <p>
             Built with:<i> HTML, CSS & React</i>
@@ -39,7 +41,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-left' className='grid-items'>
-          <img src={Captures} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={Captures} alt='img' />
+          </div>
           <h4>Movie App (Fetching data from MovieDB)</h4>
           <p>
             Built with:<i> HTML, CSS & React</i>
@@ -54,7 +58,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-right' className='grid-items'>
-          <img src={Capture} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={Capture} alt='img' />
+          </div>
           <h4>Easybank Landing Page (Frontend Mentor)</h4>
           <p>
             Built with:<i> HTML, CSS & React</i>
@@ -71,7 +77,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-left' className='grid-items'>
-          <img src={expenses} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={expenses} alt='img' />
+          </div>
           <h4>Expence Tracker App</h4>
           <p>
             Built with:<i> HTML, CSS & React</i>
@@ -88,7 +96,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-right' className='grid-items'>
-          <img src={auth} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={auth} alt='img' />
+          </div>
           <h4>User Auth (using firebase as backend)</h4>
           <p>
             Built with:<i> HTML, CSS, React & Firebase</i>
@@ -103,7 +113,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-left' className='grid-items'>
-          <img src={cate} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={cate} alt='img' />
+          </div>
           <h4>W3School Web Template</h4>
           <p>
             Built with:<i> HTML & CSS</i>
@@ -118,7 +130,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-right' className='grid-items'>
-          <img src={expense} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={expense} alt='img' />
+          </div>
           <h4>Expence Tracker App</h4>
           <p>
             Built with:<i> HTML, CSS & React</i>
@@ -135,7 +149,9 @@ const Portfolio = () => {
           </p>
         </div>
         <div data-aos='fade-up-left' className='grid-items'>
-          <img src={calc} alt='img' />
+          <div className='effects'>
+            <img className='effect' src={calc} alt='img' />
+          </div>
           <h4>Calculator App</h4>
           <p>
             Built with:<i> HTML, CSS & React</i>
