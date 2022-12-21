@@ -5,12 +5,12 @@ import './Portfolio.css';
 import Button from '../UI/Button';
 import auth from '../img/auth.PNG';
 import expense from '../img/expense.PNG';
-import calc from '../img/calc.PNG';
 import fashon from '../img/fashon.PNG';
 import expenses from '../img/expenses.PNG';
 import cate from '../img/cate.PNG';
 import Capture from '../img/Capture.JPG';
 import Captures from '../img/Captures.JPG';
+import img from '../img/img.JPG';
 
 const Portfolio = () => {
   useEffect(() => {
@@ -46,7 +46,7 @@ const Portfolio = () => {
           </div>
           <h4>Movie App (Fetching data from MovieDB)</h4>
           <p>
-            Built with:<i> HTML, CSS & React</i>
+            Built with:<i> HTML, CSS, ReactJS, TailwindCSS & MaterialUI</i>
           </p>
           <p>
             <Button>
@@ -59,11 +59,30 @@ const Portfolio = () => {
         </div>
         <div data-aos='fade-up-right' className='grid-items'>
           <div className='effects'>
+            <img className='effect' src={img} alt='img' />
+          </div>
+          <h4>Sneakers store (A frontend mentor e-commerce challenge App)</h4>
+          <p>
+            Built with:<i> HTML, CSS, ReactJS & TailwindCSS</i>
+          </p>
+          <p>
+            <Button>
+              <a href='https://symphonious-beijinho-ccc8a8.netlify.app/'>
+                DEMO
+              </a>
+            </Button>
+            <Button>
+              <a href='https://github.com/Larjarbee/Sneaker-store'>CODE</a>
+            </Button>
+          </p>
+        </div>
+        <div data-aos='fade-up-left' className='grid-items'>
+          <div className='effects'>
             <img className='effect' src={Capture} alt='img' />
           </div>
           <h4>Easybank Landing Page (Frontend Mentor)</h4>
           <p>
-            Built with:<i> HTML, CSS & React</i>
+            Built with: <i>HTML, CSS, ReactJS & TailwindCSS</i>
           </p>
           <p>
             <Button>
@@ -76,7 +95,7 @@ const Portfolio = () => {
             </Button>
           </p>
         </div>
-        <div data-aos='fade-up-left' className='grid-items'>
+        <div data-aos='fade-up-right' className='grid-items'>
           <div className='effects'>
             <img className='effect' src={expenses} alt='img' />
           </div>
@@ -95,7 +114,7 @@ const Portfolio = () => {
             </Button>
           </p>
         </div>
-        <div data-aos='fade-up-right' className='grid-items'>
+        <div data-aos='fade-up-left' className='grid-items'>
           <div className='effects'>
             <img className='effect' src={auth} alt='img' />
           </div>
@@ -112,7 +131,7 @@ const Portfolio = () => {
             </Button>
           </p>
         </div>
-        <div data-aos='fade-up-left' className='grid-items'>
+        <div data-aos='fade-up-right' className='grid-items'>
           <div className='effects'>
             <img className='effect' src={cate} alt='img' />
           </div>
@@ -129,7 +148,7 @@ const Portfolio = () => {
             </Button>
           </p>
         </div>
-        <div data-aos='fade-up-right' className='grid-items'>
+        <div data-aos='fade-up-left' className='grid-items'>
           <div className='effects'>
             <img className='effect' src={expense} alt='img' />
           </div>
@@ -145,23 +164,6 @@ const Portfolio = () => {
               <a href='https://github.com/Larjarbee/Expense-Tracker-App'>
                 CODE
               </a>
-            </Button>
-          </p>
-        </div>
-        <div data-aos='fade-up-left' className='grid-items'>
-          <div className='effects'>
-            <img className='effect' src={calc} alt='img' />
-          </div>
-          <h4>Calculator App</h4>
-          <p>
-            Built with:<i> HTML, CSS & React</i>
-          </p>
-          <p>
-            <Button>
-              <a href='https://benevolent-lollipop-dc5aa3.netlify.app/'>DEMO</a>
-            </Button>
-            <Button>
-              <a href='https://github.com/Larjarbee/Calculator-App'>CODE</a>
             </Button>
           </p>
         </div>
