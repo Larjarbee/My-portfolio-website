@@ -15,7 +15,7 @@ function About() {
           <Typography
             variant='h6'
             fontWeight={900}
-            className='py-1 px-3 bg-lightPurple text-Purple rounded-2xl'
+            className='py-1 text-Purple rounded-2xl'
           >
             Clean and Modern Design
           </Typography>
@@ -30,7 +30,7 @@ function About() {
           <Typography
             variant='h6'
             fontWeight={900}
-            className='py-1 px-3 bg-lightPurple text-Purple rounded-2xl'
+            className='py-1 text-Purple rounded-2xl'
           >
             Problem Solving
           </Typography>
@@ -44,7 +44,7 @@ function About() {
           <Typography
             variant='h6'
             fontWeight={900}
-            className='py-1 px-3 bg-lightPurple text-Purple rounded-2xl'
+            className='py-1 text-Purple rounded-2xl'
           >
             Performance Optimization
           </Typography>

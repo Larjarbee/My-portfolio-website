@@ -5,14 +5,10 @@ const Work = () => {
   return (
     <section id='work' className='my-28 space-y-10'>
       <div className='space-y-2'>
-        <div className='py-1 px-3 bg-lightPurple mx-auto w-[85px] rounded-2xl'>
+        <div className='py-1 px-3 bg-lightPurple w-[85px] rounded-2xl'>
           <Typography className='text-Purple'>💼 Work</Typography>
         </div>
-        <Typography
-          variant='h5'
-          fontWeight={900}
-          className='uppercase text-center'
-        >
+        <Typography variant='h5' fontWeight={900} className='uppercase'>
           Work Experience
         </Typography>
       </div>

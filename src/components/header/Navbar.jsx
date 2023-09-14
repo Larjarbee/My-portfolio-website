@@ -74,7 +74,6 @@ function Navbar({ setMode }) {
             </p>
           </Typography>
           <IconButton
-            sx={{ ml: 1 }}
             className='px-2 hover:cursor-pointer hover:font-medium'
             onClick={toggleColorMode}
             color='inherit'
@@ -87,7 +86,7 @@ function Navbar({ setMode }) {
           </IconButton>
         </div>
 
-        <div className='flex items-center space-x-5 md:hidden'>
+        <div className='flex items-center gap-5 md:hidden'>
           <IconButton
             className='px-2 hover:cursor-pointer hover:font-medium'
             onClick={toggleColorMode}
@@ -102,7 +101,7 @@ function Navbar({ setMode }) {
 
           <IconButton color='inherit'>
             <MenuIcon
-              className='px-2 hover:cursor-pointer hover:font-medium'
+              className='hover:cursor-pointer hover:font-medium'
               onClick={() => setShowToggle(!showToggle)}
             />
           </IconButton>
