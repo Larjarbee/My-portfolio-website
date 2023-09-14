@@ -180,7 +180,7 @@ function Navbar({ setMode }) {
 
           <div
             onClick={() => setShowToggle(false)}
-            className='fixed animation rounded-xl top-20 z-10 w-2/3 h-1/3 right-5 bg-white'
+            className='fixed animation rounded-xl top-20 z-10 w-2/3 h-2/5 right-5 bg-white'
           />
         </>
       )}
