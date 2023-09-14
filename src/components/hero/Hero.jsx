@@ -13,7 +13,7 @@ function Hero() {
   return (
     <div className='grid grid-cols-1 gap-16 my-20 items-center md:grid-cols-3 md:my-28 md:gap-0'>
       <div className=' space-y-3'>
-        <div className='py-1 px-3 bg-lightPurple w-24 rounded-2xl'>
+        <div className='py-1 px-3 bg-lightPurple w-32 text-center rounded-2xl'>
           <Typography className='text-Purple'>👋🏽 Hi, I`m</Typography>
         </div>
         <Typography variant='h2' fontWeight={900}>

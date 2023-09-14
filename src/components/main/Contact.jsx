@@ -8,7 +8,7 @@ import { scrollToSection } from '../../common/stroll';
 function Contact() {
   return (
     <section id='contact' className='space-y-10'>
-      <div className='py-1 px-3 bg-lightPurple mx-auto w-[105px] rounded-2xl'>
+      <div className='py-1 px-3 bg-lightPurple mx-auto w-[125px] text-center rounded-2xl'>
         <Typography className='text-Purple'>📬 Contact</Typography>
       </div>
 

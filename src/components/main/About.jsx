@@ -64,7 +64,7 @@ function About() {
         </div>
         <div className=' space-y-10'>
           <div className=' space-y-2'>
-            <div className='py-1 px-3 bg-lightPurple w-[115px] rounded-2xl'>
+            <div className='py-1 px-3 bg-lightPurple w-[130px] text-center rounded-2xl'>
               <Typography className='text-Purple'>🤔 About Me</Typography>
             </div>
             <Typography>
@@ -80,7 +80,7 @@ function About() {
           </div>
 
           <div className=' space-y-2'>
-            <div className='py-1 px-3 bg-lightPurple w-[120px] rounded-2xl'>
+            <div className='py-1 px-3 bg-lightPurple w-[140px] text-center rounded-2xl'>
               <Typography className='text-Purple'>📚 Education</Typography>
             </div>
             <div>

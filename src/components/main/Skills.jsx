@@ -13,7 +13,7 @@ import tailwind from '../../assets/images/tailwind-css.png';
 const Skills = () => {
   return (
     <section id='skills' className='my-28 space-y-10'>
-      <div className='py-1 px-3 bg-lightPurple mx-auto w-[90px] rounded-2xl'>
+      <div className='py-1 px-3 bg-lightPurple mx-auto w-[100px] text-center rounded-2xl'>
         <Typography className='text-Purple'>👨🏽‍💻 Skills</Typography>
       </div>
 

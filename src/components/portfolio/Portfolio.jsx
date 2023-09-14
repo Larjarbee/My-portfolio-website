@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio' className='space-y-5'>
       <div>
-        <div className='py-1 mb-3 px-3 bg-lightPurple w-[110px] rounded-2xl'>
+        <div className='py-1 mb-3 px-3 bg-lightPurple w-[120px] text-center rounded-2xl'>
           <Typography className='text-Purple'>🔗 Portfolio</Typography>
         </div>
         <Typography variant='h5' fontWeight={900} className='uppercase'>
