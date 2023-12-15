@@ -15,8 +15,8 @@ function Contact() {
         </div>
       </Reveal>
 
-      <div className='flex justify-center gap-5 w-full md:hidden'>
-        <Reveal>
+      <Reveal>
+        <div className='flex justify-center gap-5 w-full md:hidden'>
           <IconButton
             href='https://api.whatsapp.com/send?phone=2347013826816&text=hello'
             sx={{ color: '#7B4AE2' }}
@@ -24,9 +24,7 @@ function Contact() {
           >
             <WhatsAppIcon />
           </IconButton>
-        </Reveal>
 
-        <Reveal>
           <IconButton
             href='mailto:osunlajajamiu97@gmail.com'
             sx={{ color: '#7B4AE2' }}
@@ -34,8 +32,8 @@ function Contact() {
           >
             <EmailIcon />
           </IconButton>
-        </Reveal>
-      </div>
+        </div>
+      </Reveal>
       <Reveal>
         <div className='hidden flex-wrap justify-center gap-5 w-full mx-auto md:w-[40%] md:flex'>
           <button className='flex items-center text-lighterPurple py-3 px-5 border border-lighterPurple rounded-2xl w-1/2'>
