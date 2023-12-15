@@ -9,6 +9,13 @@ import oya from '../../assets/images/data/oya.png';
 
 export const DATA = [
   {
+    title: 'GoCaby Technology Limited',
+    stacks: ['HTML', 'CSS', 'React', 'TailwindCss', 'Material-UI'],
+    img: goCaby,
+    demoLink: 'https://gocaby.com/',
+    gitLink: null,
+  },
+  {
     title: 'Wuri Technologies Inc.',
     stacks: ['HTML', 'CSS', 'React', 'TailwindCss', 'Material-UI'],
     img: wuri,
@@ -19,7 +26,7 @@ export const DATA = [
     title: 'Softwrk',
     stacks: ['HTML', 'CSS', 'React', 'TailwindCss', 'Material-UI'],
     img: softwrk,
-    demoLink: null,
+    demoLink: 'https://dev.softwrk.co.uk/',
     gitLink: null,
   },
   {
@@ -27,13 +34,6 @@ export const DATA = [
     stacks: ['HTML', 'CSS', 'React', 'TailwindCss'],
     img: oya,
     demoLink: 'https://oyariyders.ng/',
-    gitLink: null,
-  },
-  {
-    title: 'GoCaby Technology Limited',
-    stacks: ['HTML', 'CSS', 'React', 'TailwindCss', 'Material-UI'],
-    img: goCaby,
-    demoLink: 'https://gocaby.com/',
     gitLink: null,
   },
   {

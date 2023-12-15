@@ -4,11 +4,12 @@ import img from '../../assets/images/linkedin.png';
 import img1 from '../../assets/images/twitter.png';
 import img2 from '../../assets/images/github.png';
 import img3 from '../../assets/images/gitlab.png';
-import img4 from '../../assets/images/img3.jpg';
+import img4 from '../../assets/images/photo.jpg';
 import pdf from '../../assets/pdf/Resume.pdf';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import { motion } from 'framer-motion';
+import Reveal from '../../common/Reveal';
 
 function Hero() {
   return (
@@ -102,26 +103,20 @@ function Hero() {
             </motion.a>
           </div>
         </div>
-        <div>
-          <motion.img
-            animate={{
-              scale: [1, 1.05, 1.05, 1, 1],
-              rotate: [0, 0, 360],
-            }}
-            transition={{
-              duration: 2,
-              ease: 'easeInOut',
-              times: [0, 0.2, 0.5, 0.8, 1],
-              repeat: Infinity,
-              repeatDelay: 1,
-            }}
+        <Reveal>
+          <img
             src={img4}
             alt='img'
             width={300}
             className=' rounded-full opacity-80 mx-auto -hue-rotate-60 ...'
           />
-        </div>
-        <div className='gap-5 flex flex-row items-center md:flex-col md:items-end'>
+        </Reveal>
+        <motion.div
+          initial={{ x: 800 }}
+          animate={{ x: 0 }}
+          transition={{ duration: 1 }}
+          className='gap-5 flex flex-row items-center md:flex-col md:items-end'
+        >
           <motion.button
             initial={{ x: 800 }}
             animate={{ x: 0 }}
@@ -150,7 +145,7 @@ function Hero() {
               Start Conversation
             </a>
           </motion.button>
-        </div>
+        </motion.div>
       </div>
     </>
   );
