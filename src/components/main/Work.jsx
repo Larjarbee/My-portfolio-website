@@ -74,7 +74,7 @@ const EXPERIENCES = [
   {
     title: 'Wuri Technologies Inc.',
     desc: 'A multi currency wallet system that allows you send and receive money globally.',
-    duration: 'Dec. 2022 - Present',
+    duration: 'Dec. 2022 - Sept. 2023',
     // img: wuri,
     worksDone: [
       'Worked with the design team to develop a beautiful, usable and resilient responsive web app.',
@@ -94,14 +94,14 @@ const EXPERIENCES = [
     ],
   },
 
-  {
-    title: 'Oya Riyders.',
-    desc: 'An dependable, user-friendly, and cost-effective ride-hailing and delivery service.',
-    duration: 'June 2022 - Sept. 2022',
-    // img: oya,
-    worksDone: [
-      'Worked on the landing page',
-      'Designed user interface to meet client specifications.',
-    ],
-  },
+  // {
+  //   title: 'Oya Riyders.',
+  //   desc: 'An dependable, user-friendly, and cost-effective ride-hailing and delivery service.',
+  //   duration: 'June 2022 - Sept. 2022',
+  //   // img: oya,
+  //   worksDone: [
+  //     'Worked on the landing page',
+  //     'Designed user interface to meet client specifications.',
+  //   ],
+  // },
 ];

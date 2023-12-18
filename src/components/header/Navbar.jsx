@@ -20,7 +20,7 @@ function Navbar({ setMode }) {
         animate={{ y: 0 }}
         transition={{ duration: 1 }}
         id='home'
-        className='w-11/12 mx-auto flex items-center rounded-lg justify-between'
+        className='w-11/12 mx-auto py-2 flex items-center rounded-lg justify-between'
       >
         <div className=''>
           <Typography variant='h4' fontWeight={900}>

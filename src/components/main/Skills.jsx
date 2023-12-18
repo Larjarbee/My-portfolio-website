@@ -10,6 +10,7 @@ import nextjs from '../../assets/images/Nextjs.png';
 import typescript from '../../assets/images/typescript.png';
 import tailwind from '../../assets/images/tailwind-css.png';
 import Reveal from '../../common/Reveal';
+import { motion } from 'framer-motion';
 
 const Skills = () => {
   return (
@@ -21,16 +22,12 @@ const Skills = () => {
       </Reveal>
 
       <Reveal>
-        <div className='flex flex-wrap items-center justify-center gap-10'>
-          <img src={html} alt='icon' width={50} />
-          <img src={css} alt='icon' width={50} />
-          <img src={javascript} alt='icon' width={50} />
-          <img src={typescript} alt='icon' width={50} />
-          <img src={react} alt='icon' width={50} />
-          <img src={tailwind} alt='icon' width={50} />
-          <img src={nextjs} alt='icon' width={50} />
-          <img src={github} alt='icon' width={50} />
-          <img src={gitlab} alt='icon' width={50} />
+        <div className='flex flex-wrap items-center p-5 justify-center gap-10'>
+          {images.map((image, index) => (
+            <motion.div key={index} whileHover={{ scale: 1.2 }}>
+              <img src={image} alt='icon' width={50} />
+            </motion.div>
+          ))}
         </div>
       </Reveal>
     </section>
@@ -38,3 +35,15 @@ const Skills = () => {
 };
 
 export default Skills;
+
+const images = [
+  html,
+  css,
+  javascript,
+  typescript,
+  react,
+  tailwind,
+  nextjs,
+  github,
+  gitlab,
+];
