@@ -6,6 +6,7 @@ import goCaby from '../../assets/images/data/goCaby.png';
 import softwrk from '../../assets/images/data/softwrk.png';
 import wuri from '../../assets/images/data/wuri.png';
 import oya from '../../assets/images/data/oya.png';
+import healthAI from '../../assets/images/data/health-ai.png';
 
 export const DATA = [
   {
@@ -28,6 +29,13 @@ export const DATA = [
     img: softwrk,
     demoLink: 'https://dev.softwrk.co.uk/',
     gitLink: null,
+  },
+  {
+    title: 'Health AI',
+    stacks: ['HTML', 'CSS', 'React', 'TailwindCss', 'Material-UI'],
+    img: healthAI,
+    demoLink: 'https://klusterthon-group17.vercel.app/',
+    gitLink: 'https://github.com/Larjarbee/-Klusterthon-Group17.git',
   },
   {
     title: 'Oya Riyders',

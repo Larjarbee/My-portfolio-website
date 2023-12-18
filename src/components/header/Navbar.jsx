@@ -28,7 +28,7 @@ function Navbar({ setMode }) {
           </Typography>
         </div>
 
-        <div className='hidden items-center space-x-10 md:flex'>
+        <div className='hidden items-center space-x-10 lg:flex'>
           <Typography fontWeight={200}>
             <p
               className='px-2 hover:cursor-pointer hover:font-bold'
@@ -90,7 +90,7 @@ function Navbar({ setMode }) {
           </IconButton>
         </div>
 
-        <div className='flex items-center gap-5 md:hidden'>
+        <div className='flex items-center gap-5 lg:hidden'>
           <IconButton
             className='px-2 hover:cursor-pointer'
             onClick={toggleColorMode}
