@@ -98,8 +98,11 @@ function About() {
               </div>
               <div>
                 <Typography>The Polytechnic, Ibadan (HND)</Typography>
-                <Typography variant='body2' fontWeight={100}>
+                <Typography variant='body2'>
                   Department of Computer Engineering Technology.
+                </Typography>
+                <Typography variant='body2' fontWeight={100}>
+                  Grade - Upper Credit
                 </Typography>
                 <Typography variant='body2' fontWeight={100}>
                   Duration: 2016 - 2023
