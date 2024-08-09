@@ -1,28 +1,28 @@
-import React from 'react';
-import img from '../../assets/images/pic1.png';
-import { ReactComponent as Img1 } from '../../assets/svgs/CodeIcon.svg';
-import { ReactComponent as Img2 } from '../../assets/svgs/DesignIcon.svg';
-import { ReactComponent as Img3 } from '../../assets/svgs/ProjectsIcon.svg';
-import { Typography } from '@mui/material';
-import Reveal from '../../common/Reveal';
+import React from "react";
+import img from "../../assets/images/pic1.png";
+import { ReactComponent as Img1 } from "../../assets/svgs/CodeIcon.svg";
+import { ReactComponent as Img2 } from "../../assets/svgs/DesignIcon.svg";
+import { ReactComponent as Img3 } from "../../assets/svgs/ProjectsIcon.svg";
+import { Typography } from "@mui/material";
+import Reveal from "../../common/Reveal";
 
 function About() {
   return (
-    <section id='about' className='space-y-28'>
-      <div className='grid gap-10 grid-cols-1 md:grid-cols-3'>
+    <section id="about" className="space-y-28">
+      <div className="grid gap-10 grid-cols-1 md:grid-cols-3">
         <Reveal>
-          <div className='text-center p-5 space-y-5 rounded-xl border border-lightPurple'>
-            <Img2 className='mx-auto' />
+          <div className="text-center p-5 space-y-5 rounded-xl border border-lightPurple">
+            <Img2 className="mx-auto" />
 
             <Typography
-              variant='h6'
+              variant="h6"
               fontWeight={900}
-              className='py-1 text-Purple rounded-2xl'
+              className="py-1 text-Purple rounded-2xl"
             >
               Clean and Modern Design
             </Typography>
 
-            <Typography variant='body2' fontWeight={100}>
+            <Typography variant="body2" fontWeight={100}>
               I take pride in crafting visually appealing and user-friendly
               websites that leave a lasting impression on visitors.
             </Typography>
@@ -30,16 +30,16 @@ function About() {
         </Reveal>
 
         <Reveal>
-          <div className='text-center p-5 space-y-5 rounded-xl border border-lightPurple'>
-            <Img1 className='mx-auto' />
+          <div className="text-center p-5 space-y-5 rounded-xl border border-lightPurple">
+            <Img1 className="mx-auto" />
             <Typography
-              variant='h6'
+              variant="h6"
               fontWeight={900}
-              className='py-1 text-Purple rounded-2xl'
+              className="py-1 text-Purple rounded-2xl"
             >
               Problem Solving
             </Typography>
-            <Typography variant='body2' fontWeight={100}>
+            <Typography variant="body2" fontWeight={100}>
               I tackle complex challenges with creativity and resourcefulness,
               finding innovative solutions to meet project requirements.
             </Typography>
@@ -47,16 +47,16 @@ function About() {
         </Reveal>
 
         <Reveal>
-          <div className='text-center p-5 space-y-5 rounded-xl border border-lightPurple'>
-            <Img3 className='mx-auto' />
+          <div className="text-center p-5 space-y-5 rounded-xl border border-lightPurple">
+            <Img3 className="mx-auto" />
             <Typography
-              variant='h6'
+              variant="h6"
               fontWeight={900}
-              className='py-1 text-Purple rounded-2xl'
+              className="py-1 text-Purple rounded-2xl"
             >
               Performance Optimization
             </Typography>
-            <Typography variant='body2' fontWeight={100}>
+            <Typography variant="body2" fontWeight={100}>
               I optimize websites for speed and performance, resulting in faster
               load times and improved search engine rankings.
             </Typography>
@@ -64,47 +64,44 @@ function About() {
         </Reveal>
       </div>
 
-      <div className='grid gap-10 grid-cols-1 items-center md:grid-cols-2'>
+      <div className="grid gap-10 grid-cols-1 items-center md:grid-cols-2">
         <Reveal>
-          <div className='h-[500px] overflow-hidden rounded-xl'>
-            <img
-              src={img}
-              alt='img'
-              className='opacity-80 mx-auto -hue-rotate-60 ...'
-            />
+          <div className="h-[500px] overflow-hidden rounded-xl">
+            <img src={img} alt="img" className="opacity-80 mx-auto" />
           </div>
         </Reveal>
         <Reveal>
-          <div className=' space-y-10'>
-            <div className=' space-y-2'>
-              <div className='py-1 px-3 bg-lightPurple w-[130px] text-center rounded-2xl'>
-                <Typography className='text-Purple'>🤔 About Me</Typography>
+          <div className=" space-y-10">
+            <div className=" space-y-2">
+              <div className="py-1 px-3 bg-lightPurple w-[130px] text-center rounded-2xl">
+                <Typography className="text-Purple">🤔 About Me</Typography>
               </div>
               <Typography>
-                I am a Front End Web Developer with a deep understanding of the
-                latest technology trends. I specialize in creating clean and
-                visually appealing website designs. My expertise includes
-                handling complex HTML, CSS, and React coding to develop and
-                enhance web applications that align with the organization's
-                requirements. I am known for my attention to detail and enjoy
-                collaborating with others to clearly define project expectations
-                and deliver exceptional results for the frontend.
+                In today's tech-driven world, having a web application for your
+                business is essential. As a frontend web developer, I specialize
+                in creating clean, visually appealing website designs using the
+                latest technology trends. My expertise includes advanced
+                ReactJS, NextJS and other web technologies to develop and
+                enhance web applications tailored to organizational needs. I am
+                known for my attention to detail and enjoy collaborating with
+                others to define project expectations clearly and deliver
+                exceptional frontend results.
               </Typography>
             </div>
 
-            <div className=' space-y-2'>
-              <div className='py-1 px-3 bg-lightPurple w-[140px] text-center rounded-2xl'>
-                <Typography className='text-Purple'>📚 Education</Typography>
+            <div className=" space-y-2">
+              <div className="py-1 px-3 bg-lightPurple w-[140px] text-center rounded-2xl">
+                <Typography className="text-Purple">📚 Education</Typography>
               </div>
               <div>
                 <Typography>The Polytechnic, Ibadan (HND)</Typography>
-                <Typography variant='body2'>
+                <Typography variant="body2">
                   Department of Computer Engineering Technology.
                 </Typography>
-                <Typography variant='body2' fontWeight={100}>
+                <Typography variant="body2" fontWeight={100}>
                   Grade - Upper Credit
                 </Typography>
-                <Typography variant='body2' fontWeight={100}>
+                <Typography variant="body2" fontWeight={100}>
                   Duration: 2016 - 2023
                 </Typography>
               </div>
