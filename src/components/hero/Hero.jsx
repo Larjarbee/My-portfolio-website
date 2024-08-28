@@ -104,13 +104,15 @@ function Hero() {
           </div>
         </div>
         <Reveal>
-          <div className="p-2 border rounded-full w-fit border-lighterPurple">
-            <img
-              src={img4}
-              alt="img"
-              width={300}
-              className="rounded-full opacity-80 mx-auto"
-            />
+          <div className="grid place-content-center">
+            <div className="p-2 border rounded-full w-fit border-lighterPurple">
+              <img
+                src={img4}
+                alt="img"
+                width={300}
+                className="rounded-full opacity-80 mx-auto"
+              />
+            </div>
           </div>
         </Reveal>
         <motion.div
