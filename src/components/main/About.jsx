@@ -67,7 +67,7 @@ function About() {
       <div className="grid gap-10 grid-cols-1 items-center md:grid-cols-2">
         <Reveal>
           <div className="h-[500px] overflow-hidden rounded-xl">
-            <img src={img} alt="img" className="opacity-80 mx-auto" />
+            <img src={img} alt="img" className="mx-auto grayscale" />
           </div>
         </Reveal>
         <Reveal>
