@@ -1,4 +1,4 @@
-import img from "../../assets/images/data/fashon.png";
+import img from "../../assets/images/data/fashion.png";
 import img1 from "../../assets/images/data/Captures.jpg";
 import img2 from "../../assets/images/data/img.jpg";
 import img3 from "../../assets/images/data/Capture.jpg";
@@ -23,7 +23,7 @@ export const DATA = [
       "HTML",
       "CSS",
       "React",
-      "Next",
+      "NextJS",
       "TailwindCSS",
       "Shadcn",
       "MovieDB",
@@ -40,18 +40,11 @@ export const DATA = [
     gitLink: null,
   },
   {
-    title: "Online Clothing Store (e-Commerce)",
-    stacks: ["HTML", "CSS", "React"],
+    title: "Online E-Commerce Application",
+    stacks: ["HTML", "CSS", "NextJS", "TypeScript", "TailwindCSS", "Shadcn"],
     img: img,
-    demoLink: "https://chic-concha-bb4522.netlify.app/",
-    gitLink: "https://github.com/Larjarbee/e-commerce-project",
-  },
-  {
-    title: "Health AI",
-    stacks: ["HTML", "CSS", "React", "TailwindCss", "Material-UI"],
-    img: healthAI,
-    demoLink: "https://klusterthon-group17.vercel.app/",
-    gitLink: "https://github.com/Larjarbee/-Klusterthon-Group17.git",
+    demoLink: "https://marketplace-nine-lake.vercel.app/",
+    gitLink: "https://github.com/Larjarbee/marketplace",
   },
   {
     title: "Oya Riyders",
@@ -59,6 +52,13 @@ export const DATA = [
     img: oya,
     demoLink: "https://oyariyders.ng/",
     gitLink: null,
+  },
+  {
+    title: "Health AI",
+    stacks: ["HTML", "CSS", "React", "TailwindCss", "Material-UI"],
+    img: healthAI,
+    demoLink: "https://klusterthon-group17.vercel.app/",
+    gitLink: "https://github.com/Larjarbee/-Klusterthon-Group17.git",
   },
   {
     title: "Sneakers store (A frontend mentor e-commerce challenge App)",
